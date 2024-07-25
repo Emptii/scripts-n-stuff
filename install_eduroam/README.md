@@ -42,3 +42,7 @@ openssl pkcs12 -in my_easyroam_cert.p12 -legacy -cacerts -nokeys > easyroam_root
 ### Tips
 
 Make sure the device id is correct for your device. For example I didn't get my connection up, since I fist used `wlp3s0` instead of the one I actually had `wlp2s0`.
+
+### Thanks
+
+Thanks to sepastian for [this](https://gist.github.com/sepastian/1015e19e8c81a12ff526caf4e4fdc224) script that got me started.
